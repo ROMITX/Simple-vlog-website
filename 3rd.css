@@ -1,0 +1,20 @@
+center{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  
+  
+}
+
+@keyframes example {
+   0%  {background-color:#8000ff}
+
+  50%  {background-color:#00ffcc;}
+
+  100% {background-color #cc3399;}
+ }
